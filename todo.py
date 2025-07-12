@@ -6,3 +6,6 @@ def show_todo():
         print(f"{i}. {task}")
 
 show_todo()
+
+def add_todo(task):
+    todo_list.append(task)
